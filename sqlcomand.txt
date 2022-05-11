@@ -1,0 +1,20 @@
+AVG, COUNT,SUM,MAX,MIN
+
+
+
+
+
+
+
+
+AGREGATE FUNCTION 
+SELECT COUNT(*) FROM table_name;
+SELECT AVG(field) FROM table_name; (SUM,MIN, MAX)
+SELECT COUNT(*), field_name1 FROM table_name GROUP BY  field_name1 HAVING COUNT(*) > INT;
+
+SELECT * FROM table WHERE NOT field = 'some';
+SELECT * FROM table WHERE field != (<>) 'SOME';
+SELECT * FROM table WHERE field IS NULL;
+
+SELECT field1 AS new_field1 FROM table;
+SELECT * FROM table ORDER BY field(DEFAULT=ASC)
